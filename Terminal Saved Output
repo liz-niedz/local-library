@@ -1,0 +1,28 @@
+Last login: Thu Jun 17 13:05:24 on ttys002
+lizs-MBP:~ lizniedzwiecki$ ls
+Desktop		Downloads	Movies		Pictures	practice.txt
+Documents	Library		Music		Public
+lizs-MBP:~ lizniedzwiecki$ cd Thinkful
+-bash: cd: Thinkful: No such file or directory
+lizs-MBP:~ lizniedzwiecki$ cd documents
+lizs-MBP:documents lizniedzwiecki$ cd Thinkful
+lizs-MBP:Thinkful lizniedzwiecki$ cd qualified-challenges
+lizs-MBP:qualified-challenges lizniedzwiecki$ qualified-attach --token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYXR0YWNoIiwiY2FuZGlkYXRlX2lkIjoiNjA5YzRhZWM3Mjg5YTNlNzVhY2IxYjdhIiwiYXNzZXNzbWVudF9yZXN1bHRfaWQiOiI2MGNiNzVhNmU2Y2M1YjAwMTEwYzY2MjciLCJjaGFsbGVuZ2VfaWQiOiI1ZjVhODgwODgzY2ViYzAwMGJkNDYyNWMifQ.TjcI1bp2iZbcRBCYt6yCSj3eoj0_zCvv2ILRcwpMfs0
+Q working directory name: JavaScript_on_Your_Machine_Connecting_with_Qualified_1
+/Users/lizniedzwiecki/Documents/Thinkful/qualified-challenges/JavaScript_on_Your_Machine_Connecting_with_Qualified_1 already exists
+Q working directory name: t
+
+  Initialized workspace under
+  /Users/lizniedzwiecki/Documents/Thinkful/qualified-challenges/t
+  You are now ready to take the challenge using your editor.
+  Simply navigate your editor to the path displayed above and start writing
+  code.
+
+  If enabled, we will rerun the tests every time you save a file and the
+  results will be displayed in the browser.
+  You can also trigger to run tests from this terminal by pressing t.
+  Once you're finished, you can submit your solution by pressing s.
+
+
+
+                           t: test  s: submit  q: quit
