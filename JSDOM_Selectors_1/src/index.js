@@ -10,7 +10,7 @@ import "./index.css";
  In this first example, the `document.querySelector()` syntax is included for you.
 */
 
-const ratings = document.querySelectorAll(".rating .value");
+const ratings = document.querySelectorAll(".stats .rating-stat .value");
 for (let element of ratings.values()) {
   console.log(element);
 }
@@ -21,17 +21,22 @@ Write a statement that will find all elements on the page containing stars that 
 Replace the entire string with your own code.
 
 */
-const halfStars = "REPLACE THIS WITH YOUR CODE";
+const halfStars = document.querySelectorAll(".rating .stars .stars half");
+for (let element of halfStars.values()) {
+  console.log(element);
+}
 
 /**
  Write a statement that will find the Gateway Arch park element by it's id.
 */
-const gatewayArch = "REPLACE THIS WITH YOUR CODE";
+const gatewayArch = document.querySelector("#ganp");
+console.log(gatewayArch)
 
 /**
 Write a statement that will find the element containing the established date for the Gateway Arch park
 */
-const established = "REPLACE THIS WITH YOUR CODE";
+const established = document.querySelector("#ganp .stats .established");
+console.log(established)
 
 /////////////////////////////////
 // DO NOT EDIT BELOW THIS LINE //
